@@ -1,4 +1,4 @@
-### Table of Contents
+## Table of Contents
 
 - Overview
 - Description
@@ -16,13 +16,13 @@
 - Deployment
 - Project barriers and the solutions
 
-### Overview
+## Overview
 
-#### A web-app for HTK’s creative workshops. 
+### A web-app for HTK’s creative workshops. 
 
-###During the Covid-19 crisis, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
+#### During the Covid-19 crisis, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
 
-###### We have many creative activities to offer and the app should reflect this in a
+####### We have many creative activities to offer and the app should reflect this in a
  With the lockdown measures now relaxing, it is as important as ever for people to get involved in supporting these endeavours. 
 
 ### Description
@@ -61,7 +61,7 @@ Points of contact are provided via email contact form, registration area and dir
 
 Wireframes: clearly defined 4-page site
 
-### Features:
+## Features:
 
 #### For members, participants, parents and general
 
@@ -93,17 +93,15 @@ I have decided on a fun, simple visual experience, using vivid colours and image
 
 ***
 
-## Features
-
 ##### Existing Features
 
 - HTML5, BootStrap, CSS3, Javascript, Python
 
-### Testing
+## Testing
 
 -
 
-### Bugs
+## Bugs
 
 ### Code validity
 
@@ -111,11 +109,11 @@ I have decided on a fun, simple visual experience, using vivid colours and image
 
 - CSS - [W3C](https://jigsaw.w3.org/css-validator/) CSS Validation
 
-### Credits
+## Credits
 
 -
 
-### Acknowledgments
+## Acknowledgments
 
 -
 
@@ -123,14 +121,14 @@ I have decided on a fun, simple visual experience, using vivid colours and image
 
 For any issue resolution or assistance:
 
-### Features left to implement
+## Features left to implement
 
 Future features would include:
 
 - The ability to share photos with other members on the site.
 - Newsletter page to keep in line with the current events and to keep people aware of how they can help.
 
-### Version Control
+## Version Control
 
 -
 
