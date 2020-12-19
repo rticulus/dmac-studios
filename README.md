@@ -1,45 +1,139 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+### Table of Contents
 
-Welcome USER_NAME,
+- Overview
+- Description
+- UX
+- Features
+- Installation
+- Usage
+- Testing
+- Code validity
+- Credits
+- Acknowledgments
+- Support
+- Features left to implement
+- Version Control
+- Deployment
+- Project barriers and the solutions
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### Overview
 
-## Gitpod Reminders
+#### A web-app for HTK’s creative workshops. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+###During the Covid-19 crisis, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
 
-`python3 -m http.server`
+###### We have many creative activities to offer and the app should reflect this in a
+ With the lockdown measures now relaxing, it is as important as ever for people to get involved in supporting these endeavours. 
 
-A blue button should appear to click: *Make Public*,
+### Description
 
-Another blue button should appear to click: *Open Browser*.
+The App is designed to provide a platform for the search and sale of creative arts services [Code Institute's](https://codeinstitute.net/) December 2020 to January 2021
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+***
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+#### User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- *"We are keen to get involved, but would like to contact someone via email to discuss in more depth"*
 
-## Updates Since The Instructional Video
+#### 1.	Strategy
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The aim of this project is to grow awareness and community support, hence keeping the UX simple and user-friendly and providing relevant information on how people can get involved.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+##### Project Goals:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+##### Customer Goals:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### 2.	Scope
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- A 4-page layout for easy navigation
+- Simple, clean layout for easy readability
+- Quickly defines the content, focus on options available and point of contact.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### 3.	Structure
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The main focus of the structure is to allow Users to quickly assimilate the information and keep them engaged till point of sale/ contact. Short, focused paragraphs of content information and inviting imagery. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Points of contact are provided via email contact form, registration area and direct sales form and  button.
 
---------
+#### 4.	Skeleton Surface
 
-Happy coding!
+Wireframes: clearly defined 4-page site
+
+### Features:
+
+#### For members, participants, parents and general
+
+-  Home and About page
+-  Contact Form
+- 	Members area with sign up/in
+-	A floating navbar for easy reference to pages
+- 	Dropdown menu from the navbar. 
+- 	Online registration and members site
+- 	Ability to book a service after sign up/in
+-  Sales area
+- 	Ability to cancel a booking before a given time
+- 	Video and ability to interact with video
+-	A social page that interacts with external apps like YouTube, Facebook, instagram and a link to snapchat
+-	A moving background
+-  Footer with Social Media
+
+
+#### For teachers and facilitators
+
+-	A booking area
+-	Scheduler/ Calendar
+-	
+
+
+#### 5. 	Surface
+
+I have decided on a fun, simple visual experience, using vivid colours and imagery
+
+***
+
+## Features
+
+##### Existing Features
+
+- HTML5, BootStrap, CSS3, Javascript, Python
+
+### Testing
+
+-
+
+### Bugs
+
+### Code validity
+
+- HTML - [W3C](https://validator.w3.org/) Markup Validation
+
+- CSS - [W3C](https://jigsaw.w3.org/css-validator/) CSS Validation
+
+### Credits
+
+-
+
+### Acknowledgments
+
+-
+
+### Support
+
+For any issue resolution or assistance:
+
+### Features left to implement
+
+Future features would include:
+
+- The ability to share photos with other members on the site.
+- Newsletter page to keep in line with the current events and to keep people aware of how they can help.
+
+### Version Control
+
+-
+
+The code can be run locally through clone or download.  
+Open the repository and in the main 'code' section there is a button 'clone or download'.  
+This button will provide a link that you can use on your desktop or download as a ZIP file.
