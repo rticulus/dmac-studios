@@ -22,7 +22,7 @@
 
 #### During the Covid-19 crisis, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
 
-####### We have many creative activities to offer and the app should reflect this in a
+###### We have many creative activities to offer and the app should reflect this in a
  With the lockdown measures now relaxing, it is as important as ever for people to get involved in supporting these endeavours. 
 
 ### Description
