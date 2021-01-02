@@ -20,20 +20,13 @@
 
 ### A web-app for HTK’s creative workshops. 
 
-#### During the Covid-19 crisis, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
+#### During the Covid-19 pandemic in 2020, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
 
-###### We have many creative activities to offer and the app should reflect this in a
- With the lockdown measures now relaxing, it is as important as ever for people to get involved in supporting these endeavours. 
-
+#### We have many creative activities to offer and the app should reflect this in a.....
+ 
 ### Description
 
-The App is designed to provide a platform for the search and sale of creative arts services [Code Institute's](https://codeinstitute.net/) December 2020 to January 2021
-
-***
-
-## UX
-
-#### User Stories
+The App is designed to provide a platform for the search and sale of creative arts services.
 
 - *"We are keen to get involved, but would like to contact someone via email to discuss in more depth"*
 
@@ -55,6 +48,8 @@ The aim of this project is to grow awareness and community support, hence keepin
 
 The main focus of the structure is to allow Users to quickly assimilate the information and keep them engaged till point of sale/ contact. Short, focused paragraphs of content information and inviting imagery. 
 
+Customers will be able to register and access their own page. From this perspective they can alter or confirm their order/interest. They may also be able to send a query regarding their interests.
+
 Points of contact are provided via email contact form, registration area and direct sales form and  button.
 
 #### 4.	Skeleton Surface
@@ -68,23 +63,24 @@ Wireframes: clearly defined 4-page site
 -  Home and About page
 -  Contact Form
 - 	Members area with sign up/in
--	A floating navbar for easy reference to pages
+-	 A floating navbar for easy reference to pages
 - 	Dropdown menu from the navbar. 
 - 	Online registration and members site
 - 	Ability to book a service after sign up/in
 -  Sales area
 - 	Ability to cancel a booking before a given time
 - 	Video and ability to interact with video
--	A social page that interacts with external apps like YouTube, Facebook, instagram and a link to snapchat
--	A moving background
+-	 A social page that interacts with external apps like YouTube, Facebook, instagram and a link to snapchat
+-	 A moving background
 -  Footer with Social Media
 
 
 #### For teachers and facilitators
 
--	A booking area
--	Scheduler/ Calendar
--	
+-	 A booking area
+-	 Scheduler/ Calendar
+-	 Query Form
+-  Download Resources
 
 
 #### 5. 	Surface
@@ -95,7 +91,7 @@ I have decided on a fun, simple visual experience, using vivid colours and image
 
 ##### Existing Features
 
-- HTML5, BootStrap, CSS3, Javascript, Python
+-  HTML5, BootStrap, CSS3, Javascript, Python, Django
 
 ## Testing
 
