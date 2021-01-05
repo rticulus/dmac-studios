@@ -1,9 +1,18 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 # Create your views here.
 
 def home(request):
-    return HttpResponse('<h1>DMACStudios Home</h1>')
+    return render(request, 'dmacstudios/home.html')
 
-def aboutus(request):
-    return HttpResponse('<h1>DMACStudios About Us</h1>')
+
+def aboutus(request): 
+    return render(request, 'dmacstudios/aboutus.html')
+
+
+def classes(request): 
+    return render(request, 'dmacstudios/classes.html')
+
+
+def gallery(request): 
+    return render(request, 'dmacstudios/gallery.html')

@@ -31,6 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'artrooms.apps.ArtroomsConfig',
+    'bookings.apps.BookingsConfig',
+    'shop.apps.ShopConfig',
+    'newsletter.apps.NewsletterConfig',
+    'dmacstudios.apps.DmacstudiosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
