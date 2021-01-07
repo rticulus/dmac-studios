@@ -7,3 +7,7 @@ def home(request):
 
 def about(request):
     return render(request, 'dmacstudios/about.html')
+
+
+def index(request):
+    return render(request, 'dmacstudios/index.html')
