@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'dmacstudios',
-    #'dmacstudios.apps.DmacstudiosConfig',
     'bookings.apps.BookingsConfig',
     'shop.apps.ShopConfig',
     'newsletter.apps.NewsletterConfig',

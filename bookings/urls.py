@@ -1,7 +1,7 @@
-from django.urls import path, include
+from django.contrib import admin
+from django.urls import path
 from . import views
 
 urlpatterns = [
     path('home/', views.home, name='bookings-home'),
-    path('accounts/', include('allauth.urls')),
 ]
