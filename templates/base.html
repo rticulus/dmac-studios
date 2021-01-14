@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,8 +27,29 @@
 
     <title>DMAC Studios {% block extratitle %} {% endblock extratitle %}</title>
   </head>
+
   <body>
-    <header "container-fluid fixed-top"></header>
+    <header "container-fluid fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'dmacstudios-home' %}">DMAC UK CiC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="{% url 'dmacstudios-home' %}">Login</a>
+                <a class="nav-link" href="{% url 'dmacstudios-about' %}">About Us</a>
+                <a class="nav-link disabled" href="{% url 'newsletter-home' %}">Newsletter</a>
+                <a class="nav-link" href="{% url 'shop-home' %}">Shop</a>
+                <a class="nav-link" href="{% url 'bookings-home' %}">Bookings</a>
+                <a class="nav-link" href="{% url 'signup' %}">Sign Up</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
 
     <div class="message-container"></div>
 

@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'dmacstudios',
+    'client.apps.ClientConfig',
+    'dmacstudios.apps.DmacstudiosConfig',
     'bookings.apps.BookingsConfig',
     'shop.apps.ShopConfig',
     'newsletter.apps.NewsletterConfig',
