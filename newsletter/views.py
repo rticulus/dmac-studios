@@ -31,6 +31,42 @@ news = [
         'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
         'date_posted': 'December 24, 2020'
     },
+    {
+        'author': 'John Doe',
+        'title': '6th Article',
+        'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
+        'date_posted': 'December 24, 2020'
+    },
+    {
+        'author': 'Jane Doe',
+        'title': '7th Article',
+        'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
+        'date_posted': 'December 24, 2020'
+    },
+    {
+        'author': 'Sara Sometime',
+        'title': '8th Article',
+        'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
+        'date_posted': 'December 24, 2020'
+    },
+    {
+        'author': 'Richard Reader',
+        'title': 'ninth Article',
+        'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
+        'date_posted': 'December 24, 2020'
+    },
+    {
+        'author': 'Mary Money',
+        'title': 'tenth Article',
+        'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
+        'date_posted': 'December 24, 2020'
+    },
+    {
+        'author': 'Tony Test',
+        'title': '11th Article',
+        'content': 'New newsletter to the masses, hope you like it. Dance is important to the wellbeing and general happiness of all human beings, providing the sport and socialisation that is required for a balanced living',
+        'date_posted': 'December 24, 2020'
+    },
 ]
 
 

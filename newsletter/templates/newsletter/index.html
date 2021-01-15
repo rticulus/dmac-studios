@@ -1,0 +1,12 @@
+{% extends "base.html" %} 
+{% load static %}
+
+{% block content %}
+    
+    <head>{% if title %}
+            <title>DMAC User Feedback - {{  title  }}</title>
+        {% else %}
+            <title>DMAC User Feedback</title>
+        {% endif %}
+    </head>
+{% endblock content %}
