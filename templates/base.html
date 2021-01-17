@@ -8,14 +8,19 @@
     <meta http-equiv= "X-UA-"Compatible" content="ie=edge">
     {% endblock meta %}
 
-    {% block extrameta %} {% endblock extrameta %}
+    {% block extrameta %}
+        <meta name="description" content="">
+        <meta name="author" content="">
+    {% endblock extrameta %}
 
     {% block corecss %}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     {% endblock corecss %}
 
-     {% block extracss %} {% endblock extracss %}
+     {% block extracss %}
+       
+     {% endblock extracss %}
 
     {% block corejs %}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -23,14 +28,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     {% endblock corejs %}
 
-    {% block extrajs %} {% endblock extrajs %}
+    {% block extrajs %}{% endblock extrajs %}
 
     <title>DMAC Studios {% block extratitle %} {% endblock extratitle %}</title>
   </head>
 
   <body>
-    <header "container-fluid fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container-fluid fixed-top">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'dmacstudios-home' %}">DMAC UK CiC</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +58,13 @@
     </header>
 
     <div class="message-container"></div>
-
+    {% if messages %} 
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tag">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
     {% block content %} {% endblock content %}
 
   </body>

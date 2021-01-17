@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'client.apps.ClientConfig',
+    'crispy_forms',
     'dmacstudios.apps.DmacstudiosConfig',
     'bookings.apps.BookingsConfig',
     'shop.apps.ShopConfig',
@@ -152,3 +153,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'dmacstudio-home'
