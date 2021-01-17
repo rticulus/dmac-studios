@@ -9,7 +9,7 @@ def signup(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
-            messages.success(request, f'Account created for {username}!')
+            messages.success(request, f'DMAC account created for {username}, You must now login to continue')
             return redirect('dmacstudios-home')
     else:
         form = UserRegisterForm()
