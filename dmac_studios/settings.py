@@ -28,7 +28,7 @@ SECRET_KEY = '4lxyh-@7#%*cd383mlqo9@#tz3@w92i*s9l*a76$42v#m=k(z)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dmacstudioonline.herokuapp.com']
 
 
 # Application definition
