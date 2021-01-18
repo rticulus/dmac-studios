@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import django_heroku
 import os
 from pathlib import Path
+import psycopg2
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +28,7 @@ SECRET_KEY = '4lxyh-@7#%*cd383mlqo9@#tz3@w92i*s9l*a76$42v#m=k(z)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [dmac-studios.herokuapp.com]
+ALLOWED_HOSTS = [dmacstudios.herokuapp.com]
 
 
 # Application definition
