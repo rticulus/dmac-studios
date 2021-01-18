@@ -22,7 +22,7 @@
 
 #### During the Covid-19 pandemic in 2020, # HTK Sverige have to move our workshops from in-house to outdoors and online. Our present website is not very interactive and does not maintain the attention of the members, neither does it allow for member interaction. Our audience are children, parents, teachers and facilitators. 
 
-#### We have many creative activities to offer and the app should reflect this in a.....
+#### We have many creative activities to offer and the app should reflect this!
  
 ### Description
 
@@ -32,15 +32,23 @@ The App is designed to provide a platform for the search and sale of creative ar
 
 #### 1.	Strategy
 
-The aim of this project is to grow awareness and community support, hence keeping the UX simple and user-friendly and providing relevant information on how people can get involved.
-
 ##### Project Goals:
+The aim of this project is to grow awareness and community support, hence keeping the UX simple and user-friendly and providing relevant information on how people can get involved.
 
 ##### Customer Goals:
 
+As a User:
+
+- I want to know when the next 8 week workshop starts for Kizomba
+- Do I need to be a member to get discounts
+- I want to see exactly where the workshops happen and how to get there
+- Can I pay in advance for 1, 3 or 6months
+- I want to know how many classes you have per week 
+- I want know if there is anyone I know that goes to your workshops
+
 #### 2.	Scope
 
-- A 4-page layout for easy navigation
+- A 4 application layout for easy navigation: Home, Booking, Shop and Newsletter
 - Simple, clean layout for easy readability
 - Quickly defines the content, focus on options available and point of contact.
 
@@ -54,7 +62,7 @@ Points of contact are provided via email contact form, registration area and dir
 
 #### 4.	Skeleton Surface
 
-Wireframes: clearly defined 4-page site
+Wireframes: clearly defined 4 application site
 
 ## Features:
 
