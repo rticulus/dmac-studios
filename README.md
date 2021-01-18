@@ -12,8 +12,8 @@
 - Acknowledgments
 - Support
 - Features left to implement
-- Version Control
 - Deployment
+- Version Control
 - Project barriers and the solutions
 
 ## Overview
@@ -85,13 +85,13 @@ Wireframes: clearly defined 4-page site
 
 #### 5. 	Surface
 
-I have decided on a fun, simple visual experience, using vivid colours and imagery
+I had decided on a relatively simple visual experience, using vivid colours and imagery
 
 ***
 
 ##### Existing Features
 
--  HTML5, BootStrap, CSS3, Javascript, Python, Django
+-  BootStrap, Javascript, Python, Django
 
 ## Testing
 
@@ -101,13 +101,13 @@ I have decided on a fun, simple visual experience, using vivid colours and image
 
 ### Code validity
 
-- HTML - [W3C](https://validator.w3.org/) Markup Validation
-
-- CSS - [W3C](https://jigsaw.w3.org/css-validator/) CSS Validation
+Python- Tested during construction, all links a connections working
 
 ## Credits
 
--
+Udemy Online resource
+Various Youtube web developers
+Django Documentation
 
 ## Acknowledgments
 
@@ -119,15 +119,31 @@ For any issue resolution or assistance:
 
 ## Features left to implement
 
-Future features would include:
-
-- The ability to share photos with other members on the site.
+- The ability to comment and share on classes, teaching methods and teachers with other members on the site.
 - Newsletter page to keep in line with the current events and to keep people aware of how they can help.
+- Social links
+- The full booking system
+- Missing crucial HTML and CSS for UX
+
+### Deployment
+
+Steps taken to deploy on Github
+
+1. My code was written in Gitpod, uploaded and hosted on Heroku and transferred to Github.
+2. In Github it is stored on a public repository: 
+3. Under services in Github, follow instructions to deploy.
+4. The code is now available for anyone to access via Github pages
+
+Now available on Github and Heroku
+
 
 ## Version Control
-
--
 
 The code can be run locally through clone or download.  
 Open the repository and in the main 'code' section there is a button 'clone or download'.  
 This button will provide a link that you can use on your desktop or download as a ZIP file.
+
+## Project Barriers and Solutions
+
+It was fun working with Django and Python, and with some more time and less pressure I believe I will grasp the full essence.
+
