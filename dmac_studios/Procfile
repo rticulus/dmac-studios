@@ -1,1 +1,1 @@
-web: gunicorn dmac_studios.wsgi --log-file -
+web: gunicorn dmac_studios.wsgi 
