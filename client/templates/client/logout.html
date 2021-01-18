@@ -1,0 +1,11 @@
+{% extends "client/index.html" %}
+{% block content %}
+    <h3>You are now signed out</h3>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Sign In Again <a class="ml-2" href="{% url 'login' %}">Sign In Here</a>
+        </small>
+    </div>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+{% endblock content %}
+
